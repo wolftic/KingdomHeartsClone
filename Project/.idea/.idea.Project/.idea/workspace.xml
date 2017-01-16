@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44489f53-e03c-4ee6-a115-c89ff06e7d0b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Noah/Scripts/Health.cs" afterPath="$PROJECT_DIR$/Assets/Noah/Scripts/Health.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Noah/Scripts/PlayerAttack.cs" afterPath="$PROJECT_DIR$/Assets/Noah/Scripts/PlayerAttack.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Noah/Scripts/PlayerMovement.cs" afterPath="$PROJECT_DIR$/Assets/Noah/Scripts/PlayerMovement.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,7 +16,27 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="PlayerAttack.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Noah/Scripts/PlayerAttack.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="34" column="33" lean-forward="false" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+              <folding>
+                <marker date="1484578993000" expanded="true" signature="42:1084" ph="{...}" />
+                <marker date="1484578993000" expanded="true" signature="91:1082" ph="{...}" />
+                <marker date="1484578993000" expanded="true" signature="102:545" ph="/* Zelfde knop gebruiken voor attack hierbij is het X op de PS2 controller &gt; Zodra dit wordt ingeklikt gaat er ee ... */" />
+                <marker date="1484578993000" expanded="true" signature="664:695" ph="{...}" />
+                <marker date="1484578993000" expanded="true" signature="727:988" ph="{...}" />
+                <marker date="1484578993000" expanded="true" signature="774:855" ph="{...}" />
+                <marker date="1484578993000" expanded="true" signature="902:978" ph="{...}" />
+                <marker date="1484578993000" expanded="true" signature="1019:1076" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -26,10 +44,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Noah/Scripts/PlayerAttack.cs" />
         <option value="$PROJECT_DIR$/Assets/Noah/Scripts/Health.cs" />
         <option value="$PROJECT_DIR$/Assets/Noah/Scripts/BallCollision.cs" />
         <option value="$PROJECT_DIR$/Assets/Noah/Scripts/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Noah/Scripts/PlayerAttack.cs" />
       </list>
     </option>
   </component>
@@ -148,12 +166,12 @@
       <workItem from="1484571611244" duration="251000" />
       <workItem from="1484574292961" duration="137000" />
       <workItem from="1484574597485" duration="11000" />
-      <workItem from="1484574653651" duration="1888000" />
+      <workItem from="1484574653651" duration="2431000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2381000" />
+    <option name="totallyTimeSpent" value="2924000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -166,7 +184,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors in solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -177,7 +195,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Change Signature" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18203124" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18203124" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -215,6 +233,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Noah/Scripts/BallCollision.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding>
+            <marker date="1484578175000" expanded="true" signature="42:307" ph="{...}" />
+            <marker date="1484578175000" expanded="true" signature="92:305" ph="{...}" />
+            <marker date="1484578175000" expanded="true" signature="170:297" ph="{...}" />
+            <marker date="1484578175000" expanded="true" signature="224:286" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Noah/Scripts/PlayerMovement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="41" lean-forward="false" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+          <folding>
+            <marker date="1484578222000" expanded="true" signature="42:994" ph="{...}" />
+            <marker date="1484578222000" expanded="true" signature="93:992" ph="{...}" />
+            <marker date="1484578222000" expanded="true" signature="510:609" ph="{...}" />
+            <marker date="1484578222000" expanded="true" signature="633:986" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Noah/Scripts/Health.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -231,45 +275,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Noah/Scripts/BallCollision.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding>
-            <marker date="1484578175000" expanded="true" signature="42:307" ph="{...}" />
-            <marker date="1484578175000" expanded="true" signature="92:305" ph="{...}" />
-            <marker date="1484578175000" expanded="true" signature="170:297" ph="{...}" />
-            <marker date="1484578175000" expanded="true" signature="224:286" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Noah/Scripts/PlayerAttack.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+        <state relative-caret-position="296">
+          <caret line="34" column="33" lean-forward="false" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
           <folding>
-            <marker date="1484578236000" expanded="true" signature="42:1119" ph="{...}" />
-            <marker date="1484578236000" expanded="true" signature="91:1117" ph="{...}" />
-            <marker date="1484578236000" expanded="true" signature="102:545" ph="/* Zelfde knop gebruiken voor attack hierbij is het X op de PS2 controller &gt; Zodra dit wordt ingeklikt gaat er ee ... */" />
-            <marker date="1484578236000" expanded="true" signature="664:695" ph="{...}" />
-            <marker date="1484578236000" expanded="true" signature="727:1023" ph="{...}" />
-            <marker date="1484578236000" expanded="true" signature="775:856" ph="{...}" />
-            <marker date="1484578236000" expanded="true" signature="893:932" ph="{...}" />
-            <marker date="1484578236000" expanded="true" signature="1054:1111" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Noah/Scripts/PlayerMovement.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="41" lean-forward="false" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-          <folding>
-            <marker date="1484578222000" expanded="true" signature="42:994" ph="{...}" />
-            <marker date="1484578222000" expanded="true" signature="93:992" ph="{...}" />
-            <marker date="1484578222000" expanded="true" signature="510:609" ph="{...}" />
-            <marker date="1484578222000" expanded="true" signature="633:986" ph="{...}" />
+            <marker date="1484578993000" expanded="true" signature="42:1084" ph="{...}" />
+            <marker date="1484578993000" expanded="true" signature="91:1082" ph="{...}" />
+            <marker date="1484578993000" expanded="true" signature="102:545" ph="/* Zelfde knop gebruiken voor attack hierbij is het X op de PS2 controller &gt; Zodra dit wordt ingeklikt gaat er ee ... */" />
+            <marker date="1484578993000" expanded="true" signature="664:695" ph="{...}" />
+            <marker date="1484578993000" expanded="true" signature="727:988" ph="{...}" />
+            <marker date="1484578993000" expanded="true" signature="774:855" ph="{...}" />
+            <marker date="1484578993000" expanded="true" signature="902:978" ph="{...}" />
+            <marker date="1484578993000" expanded="true" signature="1019:1076" ph="{...}" />
           </folding>
         </state>
       </provider>

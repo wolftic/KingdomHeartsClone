@@ -26,16 +26,14 @@ namespace Noah.Scripts
 
 
         private void Update(){
-            if (Input.GetKeyDown (KeyCode.G)) {
+            if (Input.GetKeyDown(KeyCode.G)) {
                 Attack ();
                 _time = Time.time + 5;
             }
-            if (_time <= Time.time) {
+            if (_time <= Time.time || _i > 3) {
                 _i = 0;
+                Debug.Log ("reset");
             }
-            if (_i <= 3) return;
-            _i = 0;
-            Debug.Log (_i);
         }
 
         private void Attack(){
