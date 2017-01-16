@@ -1,30 +1,31 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour {
+namespace Noah.Scripts
+{
+    public class PlayerMovement : MonoBehaviour {
 
-	[SerializeField]
-	private Transform target;
-	[SerializeField]
-	private float dist;
-	private Vector3 angle = Vector3.up;
-	private Transform thisTransform = null;
-	[SerializeField]
-	private float movSpeed = 10.0f;
-	[SerializeField]
-	private float rotSpeed;
-	private float horz;
-	private float vert;
-	void Start () {
-		thisTransform = GetComponent<Transform> ();
-		rotSpeed = 20.0f;
-	}
-	void Update () {
-		transform.LookAt (target.position);
-		horz = Input.GetAxis ("Horizontal");
-		vert = Input.GetAxis ("Vertical");
-		thisTransform.position += transform.forward * vert * Time.deltaTime * movSpeed;
-		transform.RotateAround (target.position, angle, horz * rotSpeed * Time.deltaTime );
-	}
+        [SerializeField]
+        private Transform _target;
+        [SerializeField]
+        private float _dist;
+        private readonly Vector3 _angle = Vector3.up;
+        private Transform _thisTransform;
+        [SerializeField]
+        private float _movSpeed = 10.0f;
+        [SerializeField]
+        private float _rotSpeed;
+        private float _horz;
+        private float _vert;
+        void Start () {
+            _thisTransform = GetComponent<Transform> ();
+            _rotSpeed = 20.0f;
+        }
+        void Update () {
+            transform.LookAt (_target.position);
+            _horz = Input.GetAxis ("Horizontal");
+            _vert = Input.GetAxis ("Vertical");
+            _thisTransform.position += transform.forward * _vert * Time.deltaTime * _movSpeed;
+            transform.RotateAround (_target.position, _angle, _horz * _rotSpeed * Time.deltaTime );
+        }
+    }
 }

@@ -1,20 +1,36 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class Health : MonoBehaviour {
+namespace Noah.Scripts
+{
+    public class Health : MonoBehaviour {
 
-	[SerializeField]
-	private float _health = 100.0f;
+        [SerializeField]
+        private float _health = 100.0f;
 
 
-	// Use this for initialization
-	void Start () {
+
+        public float PlayerHealth{
+            get {
+                return _health;
+            }
+            set	{
+                _health = value;
+            }
+
+
+
+        }
+
+
+
+        // Use this for initialization
+        void Start () {
 		
-	}
+        }
 	
-	// Update is called once per frame
-	void Update () {
+        // Update is called once per frame
+        void Update () {
 		
-	}
+        }
+    }
 }
